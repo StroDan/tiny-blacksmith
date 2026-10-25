@@ -14,6 +14,18 @@
 
 ---
 
+## ▶️ Play it (no Unity needed)
+
+1. Go to **[Releases](../../releases)** and download `TinyBlacksmith-v0.1.0-Windows.zip`.
+2. Unzip it anywhere.
+3. Double-click **`Tiny Blacksmith.exe`**.
+
+> Windows 64-bit. If Windows SmartScreen shows a warning, click **More info → Run anyway**. It appears because the game is not signed.
+
+📜 See the **[Changelog](CHANGELOG.md)** for how the project grew.
+
+---
+
 ## 🔥 About the game
 
 You are the blacksmith of a small workshop. Customers come to your table and tell you what they need: a fencer wants a light, sharp blade, a dwarf mercenary wants something that never breaks, a cook just needs a good knife. You take the order, light the furnace, and craft the weapon yourself, one hammer hit at a time.

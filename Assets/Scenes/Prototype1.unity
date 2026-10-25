@@ -98578,7 +98578,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1811564382}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 2012734797}
+  m_Script: {fileID: 11500000, guid: 301352a1bad1474fb59023b5f7d87cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityOccluders
   boxes:
@@ -109609,21 +109609,6 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!115 &2012734797
-MonoScript:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 7
-  m_DefaultReferences: {}
-  m_Icon: {fileID: 0}
-  m_Type: 0
-  m_ExecutionOrder: 0
-  m_ClassName: CityOccluders
-  m_Namespace: 
-  m_AssemblyName: Assembly-CSharp
 --- !u!1001 &2013079788
 PrefabInstance:
   m_ObjectHideFlags: 0
