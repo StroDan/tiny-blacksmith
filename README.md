@@ -106,6 +106,8 @@ BlenderSource/         Blender scripts and .blend source files
 
 Made by **StroDan** as a first game project.
 
+Contributor: **Claude** (Anthropic), who helped with code, tools and testing.
+
 ---
 
 <div align="center">
