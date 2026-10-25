@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48171cbcc7d610e4ea2839b76e620cfa, type: 3}
+  m_Name: TimeSettings
+  m_EditorClassIdentifier: Assembly-CSharp::TimeSettings
+  dawnStart: 6
+  dayStart: 8
+  customerStart: 8
+  customerEnd: 17.5
+  returnVisitsEnd: 19.5
+  eveningStart: 18
+  nightStart: 21
+  endDayAvailable: 18
+  supplierCutoff: 20
+  newWeaponCutoff: 20.5
+  repairCutoff: 22
+  latestHour: 23.75
+  passiveMinutesPerRealMinute: 4
+  visualCatchUpHoursPerSecond: 0.9
+  morningGlideSeconds: 8
+  newCustomersMin: 3
+  newCustomersMax: 4
+  firstArrivalHour: 8.25
+  earlyArrivalIdleSeconds: 40
+  earlyArrivalHours: 1
+  visitGapSeconds: {x: 10, y: 22}
+  returnVisitHours: {x: 9, y: 16.5}
+  deadlineHour: 18
+  rushOrderChance: 0.12
+  rushPayMultiplier: 1.35
+  contractSize: {x: 3, y: 5}
+  contractWeaponsPerDay: 2
+  orderTalkMinutes: 15
+  declineTalkMinutes: 5
+  handOverMinutes: 10
+  repairTakeInMinutes: 10
+  traderMinutes: 10
+  weapons:
+  - weapon: 1
+    furnace: 16
+    anvil: 30
+    quench: 14
+    handle: 17
+    grind: 18
+    finish: 5
+  - weapon: 2
+    furnace: 19
+    anvil: 36
+    quench: 15
+    handle: 18
+    grind: 22
+    finish: 5
+  - weapon: 4
+    furnace: 27
+    anvil: 55
+    quench: 20
+    handle: 25
+    grind: 0
+    finish: 8
+  - weapon: 0
+    furnace: 24
+    anvil: 44
+    quench: 20
+    handle: 25
+    grind: 28
+    finish: 9
+  - weapon: 3
+    furnace: 23
+    anvil: 42
+    quench: 18
+    handle: 33
+    grind: 26
+    finish: 8
+  repairSharpen: 25
+  repairHandle: 40
+  repairBentBlade: 50
+  repairModerate: 60
+  repairMajor: 80
+  upgradeTimeScale:
+  - 1
+  - 0.95
+  - 0.9
+  - 0.87

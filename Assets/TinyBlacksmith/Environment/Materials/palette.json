@@ -1,0 +1,664 @@
+{
+ "materials": [
+  {
+   "name": "TB_PlasterCream",
+   "color": [
+    0.94,
+    0.88,
+    0.74
+   ],
+   "smoothness": 0.05,
+   "emission": 0
+  },
+  {
+   "name": "TB_PlasterBeige",
+   "color": [
+    0.87,
+    0.78,
+    0.62
+   ],
+   "smoothness": 0.05,
+   "emission": 0
+  },
+  {
+   "name": "TB_WoodLight",
+   "color": [
+    0.68,
+    0.47,
+    0.27
+   ],
+   "smoothness": 0.08,
+   "emission": 0
+  },
+  {
+   "name": "TB_WoodMedium",
+   "color": [
+    0.52,
+    0.33,
+    0.18
+   ],
+   "smoothness": 0.08,
+   "emission": 0
+  },
+  {
+   "name": "TB_WoodDark",
+   "color": [
+    0.35,
+    0.22,
+    0.12
+   ],
+   "smoothness": 0.08,
+   "emission": 0
+  },
+  {
+   "name": "TB_WoodDarker",
+   "color": [
+    0.22,
+    0.14,
+    0.08
+   ],
+   "smoothness": 0.05,
+   "emission": 0
+  },
+  {
+   "name": "TB_StoneLight",
+   "color": [
+    0.72,
+    0.71,
+    0.68
+   ],
+   "smoothness": 0.06,
+   "emission": 0
+  },
+  {
+   "name": "TB_StoneMedium",
+   "color": [
+    0.57,
+    0.56,
+    0.54
+   ],
+   "smoothness": 0.06,
+   "emission": 0
+  },
+  {
+   "name": "TB_StoneDark",
+   "color": [
+    0.42,
+    0.41,
+    0.4
+   ],
+   "smoothness": 0.06,
+   "emission": 0
+  },
+  {
+   "name": "TB_CastleStoneLight",
+   "color": [
+    0.9,
+    0.84,
+    0.7
+   ],
+   "smoothness": 0.06,
+   "emission": 0
+  },
+  {
+   "name": "TB_CastleStone",
+   "color": [
+    0.81,
+    0.73,
+    0.59
+   ],
+   "smoothness": 0.06,
+   "emission": 0
+  },
+  {
+   "name": "TB_CastleStoneDark",
+   "color": [
+    0.63,
+    0.56,
+    0.46
+   ],
+   "smoothness": 0.06,
+   "emission": 0
+  },
+  {
+   "name": "TB_RoofRed",
+   "color": [
+    0.82,
+    0.38,
+    0.21
+   ],
+   "smoothness": 0.1,
+   "emission": 0
+  },
+  {
+   "name": "TB_RoofRedDark",
+   "color": [
+    0.68,
+    0.28,
+    0.16
+   ],
+   "smoothness": 0.1,
+   "emission": 0
+  },
+  {
+   "name": "TB_RoofBlue",
+   "color": [
+    0.31,
+    0.42,
+    0.64
+   ],
+   "smoothness": 0.12,
+   "emission": 0
+  },
+  {
+   "name": "TB_RoofBlueDark",
+   "color": [
+    0.23,
+    0.32,
+    0.51
+   ],
+   "smoothness": 0.12,
+   "emission": 0
+  },
+  {
+   "name": "TB_RoofThatch",
+   "color": [
+    0.94,
+    0.74,
+    0.3
+   ],
+   "smoothness": 0.04,
+   "emission": 0
+  },
+  {
+   "name": "TB_RoofThatchDark",
+   "color": [
+    0.8,
+    0.58,
+    0.21
+   ],
+   "smoothness": 0.04,
+   "emission": 0
+  },
+  {
+   "name": "TB_RoofGreen",
+   "color": [
+    0.47,
+    0.56,
+    0.23
+   ],
+   "smoothness": 0.08,
+   "emission": 0
+  },
+  {
+   "name": "TB_RoofGreenDark",
+   "color": [
+    0.36,
+    0.45,
+    0.17
+   ],
+   "smoothness": 0.08,
+   "emission": 0
+  },
+  {
+   "name": "TB_RoofSlate",
+   "color": [
+    0.34,
+    0.36,
+    0.44
+   ],
+   "smoothness": 0.12,
+   "emission": 0
+  },
+  {
+   "name": "TB_RoofSlateDark",
+   "color": [
+    0.25,
+    0.27,
+    0.34
+   ],
+   "smoothness": 0.12,
+   "emission": 0
+  },
+  {
+   "name": "TB_MetalDark",
+   "color": [
+    0.19,
+    0.19,
+    0.21
+   ],
+   "smoothness": 0.4,
+   "emission": 0
+  },
+  {
+   "name": "TB_MetalLight",
+   "color": [
+    0.62,
+    0.64,
+    0.68
+   ],
+   "smoothness": 0.55,
+   "emission": 0
+  },
+  {
+   "name": "TB_WindowA",
+   "color": [
+    1.0,
+    0.76,
+    0.41
+   ],
+   "smoothness": 0.2,
+   "emission": 0.55
+  },
+  {
+   "name": "TB_WindowB",
+   "color": [
+    1.0,
+    0.75,
+    0.4
+   ],
+   "smoothness": 0.2,
+   "emission": 0.55
+  },
+  {
+   "name": "TB_LanternGlow",
+   "color": [
+    1.0,
+    0.72,
+    0.3
+   ],
+   "smoothness": 0.0,
+   "emission": 1.5
+  },
+  {
+   "name": "TB_Fire",
+   "color": [
+    1.0,
+    0.52,
+    0.14
+   ],
+   "smoothness": 0.0,
+   "emission": 2.2
+  },
+  {
+   "name": "TB_Coal",
+   "color": [
+    0.1,
+    0.1,
+    0.11
+   ],
+   "smoothness": 0.15,
+   "emission": 0
+  },
+  {
+   "name": "TB_Glass",
+   "color": [
+    0.55,
+    0.68,
+    0.72
+   ],
+   "smoothness": 0.8,
+   "emission": 0
+  },
+  {
+   "name": "TB_Leaf",
+   "color": [
+    0.37,
+    0.56,
+    0.21
+   ],
+   "smoothness": 0.08,
+   "emission": 0
+  },
+  {
+   "name": "TB_LeafLight",
+   "color": [
+    0.5,
+    0.68,
+    0.25
+   ],
+   "smoothness": 0.08,
+   "emission": 0
+  },
+  {
+   "name": "TB_LeafDark",
+   "color": [
+    0.25,
+    0.42,
+    0.16
+   ],
+   "smoothness": 0.08,
+   "emission": 0
+  },
+  {
+   "name": "TB_LeafYellow",
+   "color": [
+    0.78,
+    0.76,
+    0.22
+   ],
+   "smoothness": 0.08,
+   "emission": 0
+  },
+  {
+   "name": "TB_LeafOrange",
+   "color": [
+    0.9,
+    0.5,
+    0.15
+   ],
+   "smoothness": 0.08,
+   "emission": 0
+  },
+  {
+   "name": "TB_LeafRed",
+   "color": [
+    0.76,
+    0.32,
+    0.11
+   ],
+   "smoothness": 0.08,
+   "emission": 0
+  },
+  {
+   "name": "TB_Pine",
+   "color": [
+    0.19,
+    0.37,
+    0.22
+   ],
+   "smoothness": 0.08,
+   "emission": 0
+  },
+  {
+   "name": "TB_PineLight",
+   "color": [
+    0.26,
+    0.46,
+    0.27
+   ],
+   "smoothness": 0.08,
+   "emission": 0
+  },
+  {
+   "name": "TB_Bark",
+   "color": [
+    0.42,
+    0.27,
+    0.15
+   ],
+   "smoothness": 0.06,
+   "emission": 0
+  },
+  {
+   "name": "TB_BirchBark",
+   "color": [
+    0.9,
+    0.88,
+    0.82
+   ],
+   "smoothness": 0.06,
+   "emission": 0
+  },
+  {
+   "name": "TB_Grass",
+   "color": [
+    0.43,
+    0.63,
+    0.22
+   ],
+   "smoothness": 0.05,
+   "emission": 0
+  },
+  {
+   "name": "TB_GrassDry",
+   "color": [
+    0.8,
+    0.66,
+    0.3
+   ],
+   "smoothness": 0.05,
+   "emission": 0
+  },
+  {
+   "name": "TB_Wheat",
+   "color": [
+    0.92,
+    0.74,
+    0.31
+   ],
+   "smoothness": 0.05,
+   "emission": 0
+  },
+  {
+   "name": "TB_Moss",
+   "color": [
+    0.46,
+    0.6,
+    0.21
+   ],
+   "smoothness": 0.05,
+   "emission": 0
+  },
+  {
+   "name": "TB_FlowerWhite",
+   "color": [
+    0.97,
+    0.95,
+    0.9
+   ],
+   "smoothness": 0.1,
+   "emission": 0
+  },
+  {
+   "name": "TB_FlowerRed",
+   "color": [
+    0.88,
+    0.22,
+    0.17
+   ],
+   "smoothness": 0.1,
+   "emission": 0
+  },
+  {
+   "name": "TB_FlowerYellow",
+   "color": [
+    0.99,
+    0.8,
+    0.18
+   ],
+   "smoothness": 0.1,
+   "emission": 0
+  },
+  {
+   "name": "TB_FlowerPurple",
+   "color": [
+    0.63,
+    0.43,
+    0.82
+   ],
+   "smoothness": 0.1,
+   "emission": 0
+  },
+  {
+   "name": "TB_FlowerBlue",
+   "color": [
+    0.36,
+    0.47,
+    0.86
+   ],
+   "smoothness": 0.1,
+   "emission": 0
+  },
+  {
+   "name": "TB_FlowerPink",
+   "color": [
+    0.94,
+    0.56,
+    0.66
+   ],
+   "smoothness": 0.1,
+   "emission": 0
+  },
+  {
+   "name": "TB_ClothCream",
+   "color": [
+    0.93,
+    0.89,
+    0.77
+   ],
+   "smoothness": 0.05,
+   "emission": 0
+  },
+  {
+   "name": "TB_ClothRed",
+   "color": [
+    0.73,
+    0.22,
+    0.18
+   ],
+   "smoothness": 0.05,
+   "emission": 0
+  },
+  {
+   "name": "TB_ClothBlue",
+   "color": [
+    0.29,
+    0.42,
+    0.68
+   ],
+   "smoothness": 0.05,
+   "emission": 0
+  },
+  {
+   "name": "TB_Sack",
+   "color": [
+    0.8,
+    0.68,
+    0.48
+   ],
+   "smoothness": 0.04,
+   "emission": 0
+  },
+  {
+   "name": "TB_Rope",
+   "color": [
+    0.64,
+    0.53,
+    0.36
+   ],
+   "smoothness": 0.04,
+   "emission": 0
+  },
+  {
+   "name": "TB_Water",
+   "color": [
+    0.31,
+    0.57,
+    0.77
+   ],
+   "smoothness": 0.85,
+   "emission": 0
+  },
+  {
+   "name": "TB_WaterFoam",
+   "color": [
+    0.86,
+    0.93,
+    0.97
+   ],
+   "smoothness": 0.6,
+   "emission": 0
+  },
+  {
+   "name": "TB_Gold",
+   "color": [
+    0.86,
+    0.69,
+    0.26
+   ],
+   "smoothness": 0.55,
+   "emission": 0
+  },
+  {
+   "name": "TB_Clay",
+   "color": [
+    0.74,
+    0.37,
+    0.22
+   ],
+   "smoothness": 0.15,
+   "emission": 0
+  },
+  {
+   "name": "TB_ClayLight",
+   "color": [
+    0.86,
+    0.68,
+    0.46
+   ],
+   "smoothness": 0.15,
+   "emission": 0
+  },
+  {
+   "name": "TB_GlassGreen",
+   "color": [
+    0.24,
+    0.44,
+    0.25
+   ],
+   "smoothness": 0.7,
+   "emission": 0
+  },
+  {
+   "name": "TB_GlassBrown",
+   "color": [
+    0.52,
+    0.31,
+    0.15
+   ],
+   "smoothness": 0.7,
+   "emission": 0
+  },
+  {
+   "name": "TB_MushroomRed",
+   "color": [
+    0.84,
+    0.17,
+    0.12
+   ],
+   "smoothness": 0.15,
+   "emission": 0
+  },
+  {
+   "name": "TB_MushroomCap",
+   "color": [
+    0.64,
+    0.42,
+    0.23
+   ],
+   "smoothness": 0.1,
+   "emission": 0
+  },
+  {
+   "name": "TB_Chanterelle",
+   "color": [
+    0.96,
+    0.67,
+    0.17
+   ],
+   "smoothness": 0.1,
+   "emission": 0
+  },
+  {
+   "name": "TB_Dirt",
+   "color": [
+    0.55,
+    0.42,
+    0.28
+   ],
+   "smoothness": 0.03,
+   "emission": 0
+  }
+ ]
+}

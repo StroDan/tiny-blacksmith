@@ -1,0 +1,57 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE / solution files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vsconfig
+
+# Unity misc
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+crashlytics-build.properties
+
+# Plastic SCM
+/.plastic/
+/ignore.conf
+
+# Helper / reference packs (not part of the game)
+/Tiny_Blacksmith_*_Pack/
+/BlenderSource/README.md
+/Зображення ChatGPT*.png
+
+# Blender backups
+*.blend1
+*.blend2
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
