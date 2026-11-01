@@ -16,11 +16,24 @@
 
 ## ▶️ Play it (no Unity needed)
 
+### 🪟 Windows
 1. Go to **[Releases](../../releases)** and download `TinyBlacksmith-v0.1.0-Windows.zip`.
 2. Unzip it anywhere.
 3. Double-click **`Tiny Blacksmith.exe`**.
 
 > Windows 64-bit. If Windows SmartScreen shows a warning, click **More info → Run anyway**. It appears because the game is not signed.
+
+### 🍎 Mac (Apple Silicon and Intel)
+1. Go to **[Releases](../../releases)** and download `TinyBlacksmith-v0.1.0-Mac-Universal.tar.gz`.
+2. Double-click it to unpack, then move **Tiny Blacksmith.app** to **Applications**.
+3. The game isn't signed by Apple, so you need to unblock it once. Open **Terminal** and run:
+   ```bash
+   xattr -cr "/Applications/Tiny Blacksmith.app"
+   codesign --force --deep -s - "/Applications/Tiny Blacksmith.app"
+   ```
+4. Double-click **Tiny Blacksmith.app**.
+
+> If macOS still blocks it, open **System Settings → Privacy & Security** and click **Open Anyway**.
 
 📜 See the **[Changelog](CHANGELOG.md)** for how the project grew.
 
